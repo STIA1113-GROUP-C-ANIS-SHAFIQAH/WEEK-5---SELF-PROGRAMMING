@@ -1,0 +1,21 @@
+package selfProgramming2;
+
+import java.util.Scanner;
+
+public class Exercise2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner input = new Scanner (System.in);
+		System.out.print("Enter integer : ");
+		float myInteger = input.nextInt();
+		System.out.println("Integer entered = " + myInteger);
+		
+		System.out.print("Enter double : ");
+		double myDouble = input.nextDouble();
+		System.out.println("Double entered = " + myDouble);
+
+	}
+
+}
